@@ -72,6 +72,7 @@ class Triangulo {
              
             </form>
            ';
+        return $html;
     }
 
     //Funcion para calcular el area
