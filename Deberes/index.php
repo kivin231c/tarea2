@@ -8,7 +8,7 @@ $triangulo = new Triangulo(NULL);
 echo $triangulo->get_form_transporte_area();
 
 if(isset($_POST['guardar'])){
-echo "El area del triangulo es " . $triangulo->area($_POST['base'], $_POST['altura']);
+echo "El area del triangulo es " . $triangulo->area($_POST['base2'], $_POST['altura']);
 }
 
 
