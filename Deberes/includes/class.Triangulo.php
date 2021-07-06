@@ -2,14 +2,14 @@
 
 class Triangulo {
 
-    private $base2;
+    private $base1;
     private $altura;
     private $lado1;
     private $lado2;
     private $lado3;
 
     function Triangulo() {
-        $this->base2 = 0;
+        $this->base1 = 0;
         $this->altura = 0;
 
         $this->lado1 = 0;
@@ -28,7 +28,7 @@ class Triangulo {
                    </tr>
                    <tr>
                        <td>base</td>
-                       <td><input type="text"  name="base2" size"4"></td>
+                       <td><input type="text"  name="base1" size"4"></td>
                    </tr>
                    <tr>
                        <td>altura</td>
@@ -76,8 +76,8 @@ class Triangulo {
     }
 
     //Funcion para calcular el area
-    public function area($base2, $altura) {
-        $area = ($base2 * $altura) / 2;
+    public function area($base1, $altura) {
+        $area = ($base1 * $altura) / 2;
         return $area;
     }
 
