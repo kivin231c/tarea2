@@ -10,11 +10,18 @@ class Triangulo{
     
     private $base;
     private $altura;
+    private $lado1;
+    private $lado2;
+    private $lado3;
+
     
     
     function Triangulo(){
         $this->base1 = 0;
         $this->altura = 0;
+         $this->lado1 = 0;
+        $this->lado2 = 0;
+        $this->lado3 = 0;
       
         
     }
